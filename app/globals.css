@@ -754,6 +754,11 @@ h6 {
   font-size: 1rem;
   transition: color 0.2s;
   text-decoration: underline;
+  color: hsl(235, 62%, 96%);
+}
+
+.contact-link:hover {
+  color: #8A8F98;
 }
 
 @media (min-width: 1024px) {

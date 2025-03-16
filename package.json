@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -20,4 +20,5 @@
     "@types/react-dom": "^18",
     "typescript": "^5"
   }
+  
 }
