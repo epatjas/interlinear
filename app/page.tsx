@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { Nav } from "@/components/nav"
-import { FileText, GitBranch, Link2, Linkedin, Mail, Phone } from "lucide-react"
+import { FileText, GitBranch, Link2, Linkedin, Mail, Phone, BrainCircuit, GraduationCap, HeartHandshake } from "lucide-react"
 import Image from "next/image"
 import { useEffect } from "react"
 
@@ -90,11 +90,10 @@ export default function Home() {
               </h2>
               <div className="approach-description">
                 <p>
-                  We aim to harness AI to create the invisible layer of understanding between learners and content.
+                We believe AI has the power to fundamentally transform education for the better, but only if it's designed with the needs of real learners in mind. We aim to harness AI to develop capable, independent thinkers.
                 </p>
                 <p>
-                  We build technology that meets learners exactly where they are - whether decoding their first words or
-                  mastering complex subjects - and provides the precise support they need to advance.
+                We build technology that that foster critical thinking through guided exploration, prioritizing deep conceptual understanding over convenient shortcuts. 
                 </p>
               </div>
             </div>
@@ -113,26 +112,26 @@ export default function Home() {
           <div className="features-grid">
             <div className="feature-item">
               <div className="feature-icon">
-                <FileText />
+                <GraduationCap />
               </div>
               <p className="feature-text">
-                Automatic conversion of complex text into digestible learning materials.
+              Designed for education first so AI becomes a learning partner, not just a shortcut
               </p>
             </div>
             <div className="feature-item">
               <div className="feature-icon">
-                <GitBranch />
+                <HeartHandshake />
               </div>
               <p className="feature-text">
-                Personalized learning paths that adapt to individual progress.
+              We create tools children can benefit from instead of leaving them behind in the AI revolution
               </p>
             </div>
             <div className="feature-item">
               <div className="feature-icon">
-                <Link2 />
+                <BrainCircuit />
               </div>
               <p className="feature-text">
-                Tools that bridge the gap between content comprehension and knowledge retention.
+              Respect that students learn differently and need different kinds of support
               </p>
             </div>
           </div>
@@ -149,7 +148,7 @@ export default function Home() {
           <div className="solutions-grid">
             <div className="solution-item">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image_lexie-FK1sQFM6ju96Id9kz91VvEbAcX4HGa.png"
+                src="/image_lexie.png"
                 alt="LexieLearn app interface"
                 width={600}
                 height={600}
@@ -171,7 +170,7 @@ export default function Home() {
             </div>
             <div className="solution-item">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image_yomi-AyyjqF0DTBBHPwHblicHn19vn3Oo83.png"
+                src="/image_yomi.png"
                 alt="Yomi app interface"
                 width={600}
                 height={600}
@@ -217,8 +216,7 @@ export default function Home() {
                   teacher, many learners inevitably fall through the cracks - either moving too slowly or too quickly
                   through material they don't fully grasp.</p>
                 <p>My background in educational technology showed me that despite our best efforts, traditional
-                  approaches weren't solving this problem. Technology was supposed to be the answer. Despite computers
-                  becoming ubiquitous in education, neither teachers nor traditional educational software have
+                  approaches weren't solving this problem. Technology was supposed to be the answer, but neither teachers nor traditional educational software have
                   successfully provided all learners with consistent, personalized, insightful feedback at scale.</p>
                 <p>Now, with advances in AI, we're at a turning point. I've built Lexie and Yomi to make this technology
                   accessible to all students in a simple, approachable format.</p>
