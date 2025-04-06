@@ -58,9 +58,7 @@ export default function Home() {
             <span className="section-label">COMPANY</span>
             <h1 className="company-heading">About</h1>
             <p className="company-description">
-              Interlinear is an educational technology company. Our mission is to bridge the gap between traditional
-              learning materials and personalized digital experiences, making learning more accessible and effective for
-              everyone.
+            Interlinear is an educational technology company. Our mission is to ensure children aren't left behind in the AI revolution by creating learning tools that make this technology accessible and effective for everyone.
             </p>
           </div>
 
@@ -90,10 +88,13 @@ export default function Home() {
               </h2>
               <div className="approach-description">
                 <p>
-                We believe AI has the power to fundamentally transform education for the better, but only if it's designed with the needs of real learners in mind. We aim to harness AI to develop capable, independent thinkers.
+                We believe AI has the power to fundamentally transform education for the better, but only if it's designed with the needs of real learners in mind.
                 </p>
                 <p>
-                We build technology that that foster critical thinking through guided exploration, prioritizing deep conceptual understanding over convenient shortcuts. 
+                We build technology that addresses real learning challenges when students need it most - during homework struggles, when facing language barriers, or when traditional resources fall short.
+                </p>
+                <p>
+                Our tools give students independence by transforming learning materials into practical resources they can use without constant guidance, prioritizing deep understanding over convenient shortcuts.
                 </p>
               </div>
             </div>
@@ -114,25 +115,34 @@ export default function Home() {
               <div className="feature-icon">
                 <GraduationCap />
               </div>
-              <p className="feature-text">
-              Designed for education first so AI becomes a learning partner, not just a shortcut
-              </p>
+              <div className="feature-content">
+                <h3 className="feature-title">Education first, technology second</h3>
+                <p className="feature-description">
+                  Our AI enhances proven learning processes rather than replacing them with flashy alternatives. Every feature serves a specific educational purpose.
+                </p>
+              </div>
             </div>
             <div className="feature-item">
               <div className="feature-icon">
                 <HeartHandshake />
               </div>
-              <p className="feature-text">
-              We create tools children can benefit from instead of leaving them behind in the AI revolution
-              </p>
+              <div className="feature-content">
+                <h3 className="feature-title">Tools that include everyone</h3>
+                <p className="feature-description">
+                  We create access points for students who might otherwise get left behind due to language barriers, learning differences, or lack of support resources.
+                </p>
+              </div>
             </div>
             <div className="feature-item">
               <div className="feature-icon">
                 <BrainCircuit />
               </div>
-              <p className="feature-text">
-              Respect that students learn differently and need different kinds of support
-              </p>
+              <div className="feature-content">
+                <h3 className="feature-title">Personalized without being prescriptive</h3>
+                <p className="feature-description">
+                  We build flexibility into our tools, recognizing that effective learning requires different approaches at different times - from structured practice to open exploration.
+                </p>
+              </div>
             </div>
           </div>
         </div>

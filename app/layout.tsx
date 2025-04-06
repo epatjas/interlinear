@@ -2,8 +2,8 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Your App',
-  description: 'Your app description',
+  title: 'Interlinear - Educational Technology Company.',
+  description: 'Our mission is to ensure children arent left behind in the AI revolution by creating learning tools that make this technology accessible and effective for everyone.',
 }
 
 export default function RootLayout({
