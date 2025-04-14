@@ -58,7 +58,7 @@ export default function Home() {
             <span className="section-label">COMPANY</span>
             <h1 className="company-heading">About</h1>
             <p className="company-description">
-            Interlinear is an educational technology company. Our mission is to ensure children aren't left behind in the AI revolution by creating learning tools that make this technology accessible and effective for everyone.
+            Interlinear is an educational technology company. Our mission is to ensure that artificial intelligence can be used effectively and meaningfully by every learner.
             </p>
           </div>
 
@@ -88,7 +88,7 @@ export default function Home() {
               </h2>
               <div className="approach-description">
                 <p>
-                We believe AI has the power to fundamentally transform education for the better, but only if it's designed with the needs of real learners in mind.
+                We believe AI has the potential to support learning in a meaningful way, but only if it's designed with care, intention, and equity.
                 </p>
                 <p>
                 We build technology that addresses real learning challenges when students need it most - during homework struggles, when facing language barriers, or when traditional resources fall short.
